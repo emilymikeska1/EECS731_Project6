@@ -8,6 +8,8 @@ I would have liked to get a support vector machine running, but I had some diffi
 
 Discussion of results:
 
-The Local Outlier Factor model worked a lot better than the Isolation Forest model that I trained. I think they could probably both function well if the hyperparameters of the Isolation Forest were tuned. In any case, it was interesting for me to experiment with n_neighbors and the threshold in the Local Outlier Factor model and observe the effects. 
+The Local Outlier Factor model worked a lot better than the Isolation Forest model that I trained. 
+I think they could probably both function well if the hyperparameters of the Isolation Forest were tuned. 
+In any case, it was interesting for me to experiment with n_neighbors and the threshold in the Local Outlier Factor model and observe the effects. 
 
 In the end, my best model was the Local Outlier Factor model with n_neighbors=20 and the threshold=0.005. 
